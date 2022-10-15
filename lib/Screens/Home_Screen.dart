@@ -21,7 +21,6 @@ class _HomeScreenState extends State<HomeScreen> {
     if (_myBox.get("TODOLIST") == null) {
       db.createInitialData();
     } else {
-      // there already exists data
       db.loadData();
     }
 
