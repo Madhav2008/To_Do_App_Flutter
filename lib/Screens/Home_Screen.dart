@@ -9,8 +9,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  List toDoList = [];
-  
+  List toDoList = [[]];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
