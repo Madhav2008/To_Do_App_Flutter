@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void checkBoxChanged(bool? value, int index) {
     setState(() {
-      toDoList[index][1] = toDoList[index][1];
+      toDoList[index][1] = !toDoList[index][1];
     });
   }
 
