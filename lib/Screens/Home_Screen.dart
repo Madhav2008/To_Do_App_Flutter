@@ -20,7 +20,9 @@ class _HomeScreenState extends State<HomeScreen> {
         centerTitle: true,
       ),
       body: ListView(
-        children: [ToDoList(),],
+        children: [
+          ToDoList(),
+        ],
       ),
     );
   }
