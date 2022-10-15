@@ -6,9 +6,7 @@ class ToDoDataBase {
   final _myBox = Hive.box('mybox');
 
   void createInitialData() {
-    toDoList = [
-      
-    ];
+    toDoList = [];
   }
 
   void loadData() {
