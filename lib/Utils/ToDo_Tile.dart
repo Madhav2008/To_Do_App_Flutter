@@ -6,7 +6,7 @@ class ToDoTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(color: Colors.yellow),
+      decoration: BoxDecoration(color: Colors.yellow,),
       child: Text('Madhav'),
     );
   }
