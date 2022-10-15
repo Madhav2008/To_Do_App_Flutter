@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'TO DO',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.yellow,
       ),
       home: const HomeScreen(),
     );
