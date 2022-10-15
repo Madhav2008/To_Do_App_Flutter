@@ -87,8 +87,8 @@ class _HomeScreenState extends State<HomeScreen> {
         itemCount: db.toDoList.length,
         itemBuilder: ((context, index) {
           return ToDoTile(
-            taskName: toDoList[index][0],
-            taskCompleted: toDoList[index][1],
+            taskName: db.toDoList[index][0],
+            taskCompleted: db.toDoList[index][1],
             onChanged: (value) => checkBoxChanged(value, index),
             deleteFunction: (context) => deleteTask(index),
           );
