@@ -10,7 +10,7 @@ class ToDoTile extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.all(24.0),
         decoration: BoxDecoration(
-          color: Colors.yellow,borderRadius: 
+          color: Colors.yellow,borderRadius: BorderRadius.circular(radius)
         ),
         child: Text('Madhav'),
       ),
