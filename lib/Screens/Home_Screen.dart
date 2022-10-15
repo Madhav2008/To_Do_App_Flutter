@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
             taskName: toDoList[index][0],
             taskCompleted: toDoList[index][1],
             onChanged: (value) => checkBoxChanged(value, index),
-            deleteFunction: (BuildContext) =>deleteTask(index),
+            deleteFunction: (context) =>deleteTask(index),
           );
         }),
       ),
