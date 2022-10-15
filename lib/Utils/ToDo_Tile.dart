@@ -5,6 +5,7 @@ class ToDoTile extends StatelessWidget {
     Key? key,
     required this.taskName,
     required this.taskCompleted,
+    required this.taskCompleted,
   }) : super(key: key);
 
   final String taskName;
