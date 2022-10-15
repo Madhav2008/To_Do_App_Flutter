@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class ToDoTile extends StatelessWidget {
   const ToDoTile({Key? key}) : super(key: key);
 
-  final String
+  final String taskName;
 
   @override
   Widget build(BuildContext context) {
