@@ -28,7 +28,6 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
   }
 
-  // text controller
   final _controller = TextEditingController();
 
   void checkBoxChanged(bool? value, int index) {
