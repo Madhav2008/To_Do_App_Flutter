@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: Text(
           "TO DO",
-          style: TextStyle(color: ),
+          style: TextStyle(),
         ),
         elevation: 0,
       ),
