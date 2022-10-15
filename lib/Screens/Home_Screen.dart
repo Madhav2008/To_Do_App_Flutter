@@ -26,9 +26,8 @@ class _HomeScreenState extends State<HomeScreen> {
         centerTitle: true,
       ),
       body: ListView.builder(
-        itemCount: toDoList.length,itemBuilder: ((context, index) {
-          
-        }),
+        itemCount: toDoList.length,
+        itemBuilder: ((context, index) {}),
       ),
     );
   }
