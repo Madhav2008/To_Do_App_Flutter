@@ -23,7 +23,8 @@ class ToDoTile extends StatelessWidget {
         right: 25,
         top: 25,
       ),
-      child: Slidable(endActionPane: ActionPane(
+      child: Slidable(
+        endActionPane: ActionPane(
           motion: StretchMotion(),
           children: [
             SlidableAction(
