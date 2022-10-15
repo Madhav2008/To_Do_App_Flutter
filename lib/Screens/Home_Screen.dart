@@ -10,7 +10,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   List toDoList = [
-    ["task 1", false],
+    ["Task 1", false],
   ];
 
   @override
