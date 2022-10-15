@@ -45,6 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
       _controller.clear();
     });
     Navigator.of(context).pop();
+    db.updateDataBase();
   }
 
   void createNewTask() {
