@@ -18,6 +18,17 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       toDoList[index][1] = !toDoList[index][1];
     });
+  }void createNewTask() {
+    showDialog(
+      context: context,
+      builder: (context) {
+        return DialogBox(
+          controller: _controller,
+          onSave: saveNewTask,
+          onCancel: () => Navigator.of(context).pop(),
+        );
+      },
+    );
   }
 
   void deleteTask(int index) {
