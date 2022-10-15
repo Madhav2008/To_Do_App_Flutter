@@ -40,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ToDoTile(
             taskName: "Task 4",
             taskCompleted: false,
-            onChanged: (bool) {},
+            onChanged: (p0) {},
           ),
         ],
       ),
