@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void deleteTask(int index) {
     setState(() {
-      db.toDoList.removeAt(index);
+      toDoList.removeAt(index);
     });
     db.updateDataBase();
   }
