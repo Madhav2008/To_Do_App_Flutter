@@ -84,7 +84,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Icon(Icons.add),
       ),
       body: ListView.builder(
-        itemCount: toDoList.length,
+        itemCount: db.toDoList.length,
         itemBuilder: ((context, index) {
           return ToDoTile(
             taskName: toDoList[index][0],
