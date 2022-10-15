@@ -18,6 +18,11 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       toDoList[index][1] = !toDoList[index][1];
     });
+  }void deleteTask(int index) {
+    setState(() {
+      db.toDoList.removeAt(index);
+    });
+    db.updateDataBase();
   }
 
   @override
