@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "TO DO",
           style: TextStyle(),
         ),
-        elevation: 0,
+        elevation: 0,centerTitle: runtimeType,
       ),
     );
   }
