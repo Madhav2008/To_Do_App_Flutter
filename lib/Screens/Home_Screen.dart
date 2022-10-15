@@ -39,7 +39,6 @@ class _HomeScreenState extends State<HomeScreen> {
     db.updateDataBase();
   }
 
-  // save new task
   void saveNewTask() {
     setState(() {
       db.toDoList.add([_controller.text, false]);
