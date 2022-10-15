@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       toDoList.removeAt(index);
     });
-    db.updateDataBase();
+    updateDataBase();
   }
 
   @override
