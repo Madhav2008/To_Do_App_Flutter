@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           ToDoTile(
             taskCompleted: null,
-            ),
+          ),
       ),
     );
   }
