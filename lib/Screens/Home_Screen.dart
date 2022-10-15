@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: ListView(
         children: [
           ToDoTile(
-            taskName: "null",
+            taskName: "Task 1",
             taskCompleted: false, 
             onChanged: (bool? ) {  },
           ),
