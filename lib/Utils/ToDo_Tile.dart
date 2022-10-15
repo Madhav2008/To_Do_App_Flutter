@@ -28,7 +28,7 @@ class ToDoTile extends StatelessWidget {
               value: value,
               onChanged: onChanged,
             ),
-            Text('Madhav'),
+            Text(taskName),
           ],
         ),
       ),
