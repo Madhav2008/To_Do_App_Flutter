@@ -18,7 +18,9 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       toDoList[index][1] = !toDoList[index][1];
     });
-  }void createNewTask() {
+  }
+
+  void createNewTask() {
     showDialog(
       context: context,
       builder: (context) {
