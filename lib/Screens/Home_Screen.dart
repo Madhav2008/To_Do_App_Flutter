@@ -21,7 +21,6 @@ class _HomeScreenState extends State<HomeScreen> {
     db.updateDataBase();
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
           return ToDoTile(
             taskName: toDoList[index][0],
             taskCompleted: toDoList[index][1],
-            onChanged: (value) => checkBoxChanged(value,index),
+            onChanged: (value) => checkBoxChanged(value, index),
           );
         }),
       ),
