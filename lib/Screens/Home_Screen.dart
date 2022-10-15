@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     ["Task 2", false],
   ];
 
-  void checkBoxChanged
+  void checkBoxChanged()
 
   @override
   Widget build(BuildContext context) {
