@@ -7,7 +7,7 @@ class ToDoTile extends StatelessWidget {
   }) : super(key: key);
 
   final String taskName;
-  final String taskName;
+  final String taskCompleted;
 
   @override
   Widget build(BuildContext context) {
