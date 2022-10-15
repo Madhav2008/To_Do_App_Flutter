@@ -40,12 +40,6 @@ class _HomeScreenState extends State<HomeScreen> {
     ["Task 2", false],
   ];
 
-  void checkBoxChanged(bool? value, int index) {
-    setState(() {
-      toDoList[index][1] = !toDoList[index][1];
-    });
-  }
-
   void saveNewTask() {
     setState(() {
       toDoList.add([_controller.text, false]);
