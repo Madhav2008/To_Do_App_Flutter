@@ -17,7 +17,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   void initState() {
-    // if this is the 1st time ever openin the app, then create default data
     if (_myBox.get("TODOLIST") == null) {
       db.createInitialData();
     } else {
