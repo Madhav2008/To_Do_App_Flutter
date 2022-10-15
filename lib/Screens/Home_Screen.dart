@@ -63,7 +63,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // delete task
   void deleteTask(int index) {
     setState(() {
       db.toDoList.removeAt(index);
