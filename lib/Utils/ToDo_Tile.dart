@@ -15,7 +15,10 @@ class ToDoTile extends StatelessWidget {
         ),
         child: Row(
           children: [
-            Checkbox(value: value, onChanged: onChanged,),
+            Checkbox(
+              value: value,
+              onChanged: onChanged,
+            ),
             Text('Madhav'),
           ],
         ),
