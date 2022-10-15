@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
           style: TextStyle(),
         ),
         elevation: 0,
-        centerTitle: true,
+        centerTitle: true,backgroundColor: ,
       ),
     );
   }
