@@ -35,8 +35,6 @@ class _HomeScreenState extends State<HomeScreen> {
     db.updateDataBase();
   }
 
-  final _controller = TextEditingController();
-
   List toDoList = [
     ["Task 1", false],
     ["Task 2", false],
