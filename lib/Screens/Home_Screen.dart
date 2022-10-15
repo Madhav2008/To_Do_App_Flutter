@@ -26,7 +26,6 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
   }
 
-  // text controller
   final _controller = TextEditingController();
 
   // checkbox was tapped
