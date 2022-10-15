@@ -19,7 +19,9 @@ class _HomeScreenState extends State<HomeScreen> {
         elevation: 0,
         centerTitle: true,
       ),
-      body: ListView(children: [],),
+      body: ListView(
+        children: [],
+      ),
     );
   }
 }
