@@ -25,11 +25,10 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void saveNewTask() {
     setState(() {
-      db.toDoList.add([_controller.text, false]);
+      toDoList.add([_controller.text, false]);
       _controller.clear();
     });
     Navigator.of(context).pop();
-    db.updateDataBase();
   }
 
   void createNewTask() {
