@@ -8,7 +8,8 @@ class HomeScreen extends StatefulWidget {
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {final _controller = TextEditingController();
+class _HomeScreenState extends State<HomeScreen> {
+  final _controller = TextEditingController();
   List toDoList = [
     ["Task 1", false],
     ["Task 2", false],
