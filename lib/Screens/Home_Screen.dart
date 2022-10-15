@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void checkBoxChanged(bool? value, int index) {
     setState(() {
-      db.toDoList[index][1] = !db.toDoList[index][1];
+      toDoList[index][1] = !db.toDoList[index][1];
     });
     db.updateDataBase();
   }
