@@ -18,7 +18,6 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       toDoList[index][1] = !db.toDoList[index][1];
     });
-    db.updateDataBase();
   }
 
   @override
