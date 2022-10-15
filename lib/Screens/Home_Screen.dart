@@ -11,7 +11,8 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(elevation: 0,
+      appBar: AppBar(
+        elevation: 0,
         title: Text("TO DO"),
       ),
     );
