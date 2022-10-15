@@ -14,7 +14,13 @@ class _HomeScreenState extends State<HomeScreen> {
     ["Task 2", false],
   ];
 
-  void checkBoxChanged() {}
+  void checkBoxChanged(bool? value, int index) {
+    setState(() {
+      db.toDoList[index][1] = !db.toDoList[index][1];
+    });
+    db.updateDataBase();
+  }
+
 
   @override
   Widget build(BuildContext context) {
