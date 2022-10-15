@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
         itemCount: toDoList.length,
         itemBuilder: ((context, index) {
           return ToDoTile(
-            taskName: toDoList[index] [0],
+            taskName: toDoList[index][0],
             taskCompleted: taskCompleted,
             onChanged: onChanged,
           );
