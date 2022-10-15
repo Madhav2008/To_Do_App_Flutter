@@ -22,7 +22,8 @@ class DialogBox extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            TextField(autofocus: true,
+            TextField(
+              autofocus: true,
               controller: controller,
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
