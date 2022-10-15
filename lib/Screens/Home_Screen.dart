@@ -23,10 +23,6 @@ class _HomeScreenState extends State<HomeScreen> {
       body: ListView(
         children: [
           ToDoTile(),
-          ToDoTile(),
-          ToDoTile(),
-          ToDoTile(),
-        ],
       ),
     );
   }
