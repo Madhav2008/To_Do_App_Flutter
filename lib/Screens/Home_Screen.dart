@@ -31,7 +31,6 @@ class _HomeScreenState extends State<HomeScreen> {
   // text controller
   final _controller = TextEditingController();
 
-  // checkbox was tapped
   void checkBoxChanged(bool? value, int index) {
     setState(() {
       db.toDoList[index][1] = !db.toDoList[index][1];
