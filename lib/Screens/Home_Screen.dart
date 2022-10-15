@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: ListView.builder(
         itemCount: toDoList.length,
-        itemBuilder: ((context, index) {return}),
+        itemBuilder: ((context, index) {return ToDoTile(taskName: taskName, taskCompleted: taskCompleted, onChanged: onChanged)}),
       ),
     );
   }
