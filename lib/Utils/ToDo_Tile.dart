@@ -10,7 +10,7 @@ class ToDoTile extends StatelessWidget {
 
   final String taskName;
   final bool taskCompleted;
-  final bool taskCompleted;
+  Fun taskCompleted;
 
   @override
   Widget build(BuildContext context) {
