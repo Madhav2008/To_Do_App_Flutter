@@ -49,7 +49,6 @@ class _HomeScreenState extends State<HomeScreen> {
     db.updateDataBase();
   }
 
-  // create a new task
   void createNewTask() {
     showDialog(
       context: context,
