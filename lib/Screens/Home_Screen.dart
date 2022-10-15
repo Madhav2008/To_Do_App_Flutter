@@ -36,6 +36,9 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         elevation: 0,
         centerTitle: true,
+      ),floatingActionButton: FloatingActionButton(
+        onPressed: createNewTask,
+        child: Icon(Icons.add),
       ),
       body: ListView.builder(
         itemCount: toDoList.length,
