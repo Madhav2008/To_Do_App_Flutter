@@ -19,7 +19,6 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         elevation: 0,
         centerTitle: true,
-        backgroundColor: Colors.yellow,
       ),
     );
   }
