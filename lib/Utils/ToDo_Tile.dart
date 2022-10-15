@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ToDoTile extends StatelessWidget {
-  const ToDoTile({
+  ToDoTile({
     super.key,
     required this.taskName,
     required this.taskCompleted,
