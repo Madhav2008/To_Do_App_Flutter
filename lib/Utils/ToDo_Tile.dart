@@ -25,7 +25,7 @@ class ToDoTile extends StatelessWidget {
         child: Row(
           children: [
             Checkbox(
-              value: value,
+              value: taskCompleted,
               onChanged: onChanged,
             ),
             Text(taskName),
