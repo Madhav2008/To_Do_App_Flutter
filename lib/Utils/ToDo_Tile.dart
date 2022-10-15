@@ -12,7 +12,11 @@ class ToDoTile extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.yellow,borderRadius: BorderRadius.circular(12),
         ),
-        child: Text('Madhav'),
+        child: Row(
+          children: [
+            Text('Madhav'),
+          ],
+        ),
       ),
     );
   }
